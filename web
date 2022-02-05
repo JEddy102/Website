@@ -1,0 +1,185 @@
+<html> 
+    <head>
+        <style>
+            body {
+                background-color: f5ffff;
+            }
+            .header {
+                 background: #68a3ca;
+                 color: white;
+             }
+            .logo img{
+
+                outline: 0;
+
+                border: 0;
+                padding: 0;
+                margin: 0;
+                 
+            }
+            .HeaderText
+            {
+                text-align: center;
+                font-size: 30px;
+                border: 0;
+                padding: 0;
+                margin: 0;
+            }
+
+
+            .Navigation {
+                white-space: nowrap;
+                text-align: left;
+                position: relative;
+                background-color: #333;
+                overflow: hidden;
+            }
+            .Navigation a{
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            .Navigation a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .Navigation a.active {
+                background-color: #04AA6D;
+                color: white;
+            }
+
+            .buttLOL {
+                border-radius: 4px;
+                background-color: #333;
+                border: none;
+                color: white;
+                text-align: center;
+                font-size: 28px;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            .buttLOL span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+            .buttLOL span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+            .buttLOL:hover span {
+                padding-right: 25px;
+            }
+
+            .buttLOL:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+
+
+            * {box-sizing: border-box;}
+
+            .TeamPicture {
+                position: relative;
+                width: 250px;
+
+            }
+
+            .image {
+                display: block;
+                width: 250%;
+                height: auto;
+            }
+
+            .Roster {
+                position: absolute; 
+                bottom: 0; 
+                background: rgb(0, 0, 0);
+                background: rgba(0, 0, 0, 0.5);
+                color: #f1f1f1; 
+                width: 250%;
+                transition: .5s ease;
+                opacity:0;
+                color: white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .TeamPicture:hover .Roster {
+                opacity: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <img src="https://kentstatesports.com/images/logos/site/site.png" alt="KSU LOGO"></img>
+            </div>
+            <div class="HeaderText">
+                <h1>KENT STATE</h1>
+                <p>CLUB FIGURE SKATING</p>
+            </div>
+        </div>
+
+        <div class="Navigation">
+            <a class="rmLink rmRootLink rmFirst Selected" href="https://www.youtube.com/watch?v=bvWRMAU6V-c">
+                <span class="rmText">HOME</span>
+            </a>
+            <a class="rmLink rmRootLink rmFirst Selected" href="https://www.youtube.com/watch?v=n_uqBwFRfOc">
+                <span class="rmText">ABOUT</span>
+            </a>
+            <a class="rmLink rmRootLink rmFirst Selected" href="https://www.youtube.com/watch?v=n_uqBwFRfOc">
+                <span class="rmText">HIGHLIGHTS</span>
+            </a>
+            <a class="rmLink rmRootLink rmFirst Selected" href="https://www.youtube.com/watch?v=n_uqBwFRfOc">
+                <span class="rmText">ROSTER</span>
+            </a>
+            <a class="rmLink rmRootLink rmFirst Selected" href="https://www.kent.edu/recservices/ice-arena">
+                <span class="rmText">KENT RINK</span>
+            </a>
+            <a class="rmLink rmRootLink rmFirst Selected" href="https://www.youtube.com/watch?v=n_uqBwFRfOc">
+                <span class="rmText">CONTACT</span>
+            </a>
+        </div>
+        <br></br>
+        <div class="IDKwhatToNameYou">
+            <div class="TeamPicture">
+                <img src="C:\Users\jilli\OneDrive\Pictures\KSUteam.PNG" alt="TeamRoster" class="image"></img>
+                <a href="https://www.youtube.com/watch?v=n_uqBwFRfOc"><div class="Roster">This Semester's Roster</div></a>
+            </div>
+        </div>
+        <iframe src="https://calendar.google.com/calendar/embed?height=250&wkst=1&bgcolor=%233F51B5&ctz=America%2FNew_York&showTitle=0&showNav=0&showTabs=0&showPrint=0&showCalendars=0&mode=AGENDA&showDate=0&showTz=1&src=a2VudGZpZ3VyZXNrYXRpbmdAZ21haWwuY29t&src=bWV0anE2YWYwY3UxbDQ0YjRvdjR1bm9tcm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=a2tocGxlcGhwZm5jMnAybmphOTMzbTRpNGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23039BE5&color=%23F09300&color=%237986CB" style="border-width:0" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+        <br />
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfEY4UUE-31AKwjzHNkkeW04xNqoJGjgXVjonXR2o_S8YzUoA/viewform?usp=sf_link">
+            <button class="buttLOL"> <span> JOIN </span></button>
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfEY4UUE-31AKwjzHNkkeW04xNqoJGjgXVjonXR2o_S8YzUoA/viewform?usp=sf_link">
+            <button class="buttLOL"> <span> DONATE </span></button>
+        </a>
+        </div>
+
+        <div class="IDKwhatToNameYouAgain">
+            <div class="GalleryPic">
+                <img src="C:\Users\jilli\Downloads\20211129_094718.jpg" alt="Gallery" class="image2"></img>
+                <a href="https://www.youtube.com/watch?v=n_uqBwFRfOc"><div class="Roster">Gallery/Highlights</div></a>
+            </div>
+        </div>
+
+    </body>
+
+</html>
